@@ -1,0 +1,42 @@
+table, th, td{
+	border: 1px solid tomato;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	
+}
+
+table{
+	width:100%;
+	border-spacing: 10px;
+	border-collapse: collapse;
+}
+
+th{
+	text-align: center;
+	background-color: #4CAF50;
+    color: white;
+}
+
+caption{
+	color:tomato;
+	font-size: 2.5em;
+}
+
+tr:nth-child(even) {
+	background-color: #eee;
+}
+
+tr:nth-child(2){
+	background-color: #aaa;
+}
+
+tr:hover{
+	background-color:tomato;
+}
+
+tr{
+	vertical-align: middle;
+	text-align:center;
+}
+
+h1::before {
+    content: url('http://cliparts.co/cliparts/6Tr/orA/6TrorAb7c.gif');
+}

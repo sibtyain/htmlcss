@@ -1,0 +1,52 @@
+/* the test css file */
+
+
+*{
+	border: 1px solid red;
+	margin:.4em;
+}
+ul{
+	display: inline-block;
+	position: static;;
+	width: 200px;
+	
+	top:100px;
+	float:left;
+}
+div>p:hover{
+	overflow-y:scroll;
+	display: block;
+	
+	position:inline-block;
+}
+
+div>p{
+	padding:2em;
+	display: inline-block;
+	position:static;
+	overflow: hidden;;
+	width:200px;
+	height:200px;
+	
+}
+
+body{
+	
+	
+	background-color:yellow;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color:black; 
+}
+
+div.container {
+  width:38em;
+  border:1em solid black;
+}
+
+div.split {
+ 
+  box-sizing:border-box;
+  width:50%;
+  border:1em silver ridge;
+  float:right;
+}
