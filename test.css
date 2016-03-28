@@ -1,0 +1,72 @@
+/* test2.css */
+
+@media (min-width:500px){
+	*{
+		border: 1px solid black;
+	}
+	
+	.toolbar {
+		display:inline-block;
+		float: left;
+		position: relative;
+		background-color: green;
+		
+	}
+	body{
+		margin:0;	
+		padding:0;
+		border:0;
+	}
+	
+	li{
+		display: inherit;
+		background-color: red;
+	}
+	ul{
+		display: inherit;
+		background-color: black;
+	}
+	nav{
+		display:block;
+		float:left;
+		position: relative;
+		width: 100%;
+		background-color: pink;
+		
+	}
+	
+	article{
+		display: inline-block;
+		float:left;
+		width: 300px;
+		height: 300px;
+		overflow:auto;
+		background-color: yellow;
+		
+		
+	}
+	
+	
+	h1{
+		background:red;
+		display:block;
+		border: 1px solid #b52c2c;
+		position: fixed;
+		width:100px;
+		
+		padding:10px;
+		left: -30px;
+		top:250px;
+
+		z-index: 1;
+		 transform: rotate(-90deg);
+		text-shadow: 2px 2px #ff0000;
+	}
+	
+	.menuOptions{
+		display:none;
+		width: 100%;
+		height: 100%;
+		background:red;
+	}
+}

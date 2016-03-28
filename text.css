@@ -1,0 +1,29 @@
+*{
+	border: 1px solid red;
+	
+	letter-spacing: .12em;
+}
+
+
+.div {
+	text-indent: 5em;
+	text-align:left;
+	text-decoration: none;
+	padding-left: 1em;
+}
+
+h1 {
+	color:green;
+	text-align: center;
+	text-transform: uppercase;
+	text-indent: 0;
+	text-decoration: underline;
+	text-shadow: 2px 2px #ff0000;
+}
+
+ div #two {
+	
+	text-transform: lowercase;
+	line-height: 1.4em;
+	
+}

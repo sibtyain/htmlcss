@@ -1,0 +1,22 @@
+ul{
+	/*
+	list-style-image: url('https://sniptsmaster.files.wordpress.com/2014/06/check-mark-3-16.png');	
+	*/
+	background-color:black;
+	padding: 30px;
+	list-style-position: outside;
+	border: 3px solid red;
+}
+
+li{
+	background-color:black;
+	color:white;
+	padding: 1em;	
+	border: 3px solid black;
+}
+
+li:hover{
+	list-style-image: url('http://www.indexbraille.com/Website/Templates/IndexBraille/Theme/Images/list-style-check.png');
+	background-color: lightgreen;
+	color:black;	
+}
